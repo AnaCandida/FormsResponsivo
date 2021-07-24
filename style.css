@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: red;
+}
+
+:root{
+  --background-color: var(#EBEBEB);
+  --inputs: var(#818181);
+  --cinza-claro: var(#e4e4e4);
+}
+
+body{
+  background-color: #EBEBEB;
+}
+
+
+.c-form{
+  background-color: white;
+  width: 500px;
+  margin: 150px auto;
+  border-radius: 15px;
+  box-shadow: 10px 20px 30px  10px gray;
+}
+.c-form:hover{
+  box-shadow: 10px 20px 30px  20px gray;
+
+}
+
+form{
+  padding: 20px;
+text-align: center; 
+font-weight: 700;
+
+}
+
+
+form .c-input{
+  position: relative;
+}
+
+form .c-input input,input[type="submit"]{
+  border-radius: 15px;
+  height: 45px;
+  width: 100%;
+}
+
+
+form .c-input input{
+  border: 1px solid #e4e4e4;
+  color: #818181;
+  padding: 0 55px 0 25px;
+  margin-bottom: 15px;
+  margin-top:15px;
+  font-size: 18px;
+
+
+}
+form .c-input input::placeholder{
+  color: #818181;
+
+}
+
+.feather-user{
+  color:#818181;
+  position: absolute;
+  display: block;
+  right: 20px;
+  top: 24px;
+}
+
+.feather-lock{
+  color:#818181;
+  position: absolute;
+  display: block;
+  right: 20px;
+  top: 100px;
+
+}
+
+.c-options{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  color:#818181;
+
+   
+}
+
+input[type="submit"]{
+  background-color: red;
+  color:white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.feather-facebook{
+  background-color: #375c98;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  color: white;
+  margin: 0 10px 30px 0
+
+}
+.feather-mail{
+  background-color:#C54F33;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  
+  color: white;
+  margin: 0 10px 30px 0
+
+}
+
+.feather-twitter{
+  background-color: #4dadf2;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  color: white;
+  margin: 0 10px 30px 0
+
+}
+
+p{
+  font-size:15px;
+  margin: 20px 0 25px 0;
+  color:#818181;
+
+}

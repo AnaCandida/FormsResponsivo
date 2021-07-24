@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styleCopy.css" rel="stylesheet" />
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <title>Desafio de forms</title>
+  </head>
+  <body>
+    <main class="c-form">
+      <form>
+        <h3>SIGN IN</h3>
+        <div class="c-input">
+          <input type="text" placeholder="Username" />
+          <i data-feather="user"></i>
+
+          <input type="password" placeholder="Password" />
+          <i data-feather="lock"></i>
+        </div>
+
+        <div class="c-options">
+          <div class="checkbox-container">
+            <input
+              type="checkbox"
+              name="remember"
+              id="remember-me"
+              value="remember"
+            />
+            <label for="remember">Remember me</label>
+          </div>
+          <a href="#">Reset Passaword</a>
+        </div>
+        <input  type="submit" name="submit" value="Sing In" id="submit" />
+
+        <p>Or sign in with</p>
+        <a href="https://pt-br.facebook.com/" target="_blank">  
+        <i data-feather="facebook"></i>
+      </a>
+      <a href="https://gmail.com/" target="_blank">  
+        <i data-feather="mail"></i>
+      </a>
+
+      <a href="https://twitter.com/" target="_blank">  
+        <i data-feather="twitter"></i>
+      </a>
+       
+        <footer>
+          <hr>
+            <p> Do not have an account?</p>
+            <p><a href="#"> Sign Up now</a></p>
+      </form>
+    </main>
+   
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
